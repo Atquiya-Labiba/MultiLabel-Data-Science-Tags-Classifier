@@ -9,7 +9,10 @@
 
 <body>
     <header class="top-header">
-        <a href="{{ url_for('index') }}" class="logo">Data Science Tag Classifier</a>
+        <a href="{{ url_for('index') }}" class="logo">
+            <img src="{{ url_for('static', filename='images/ds_logo.png') }}" alt="Data Science Logo" class="logo-img">
+            <span>Data Science</span>
+        </a>
         <div class="header-icons">
             <a href="{{ url_for('index') }}" class="icon-link" title="Home">
                 <i class="fas fa-home"></i>

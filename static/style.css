@@ -26,6 +26,13 @@
     transition: transform 0.2s, color 0.2s;
     flex: 0 0 auto;
 }
+.logo-img {
+    height: 36px;           
+    width: auto;
+    margin-right: 1px;      
+    vertical-align: middle; 
+    display: inline-block;
+}
 
 .top-header .logo:hover {
     transform: scale(1.05);
